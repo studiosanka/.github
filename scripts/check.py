@@ -89,7 +89,7 @@ def todos():
         if ".git" in md.parts:
             continue
         for n, line in enumerate(md.read_text(encoding="utf-8").splitlines(), 1):
-            if "TODO" in line or "temporary address" in line:
+            if "TODO" in line or "coming soon" in line:
                 found.append(f"{md.relative_to(ROOT)}:{n}")
     return found
 
