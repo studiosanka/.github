@@ -24,7 +24,7 @@ A robot arm you can build yourself: 3D-printed gearboxes, ordinary stepper motor
 | [sixeyes-host](https://github.com/studiosanka/sixeyes-host) | Talk to the arm from a computer over USB, in Python. Has a pretend arm, so you can try things without hardware |
 | [lerobot-sixeyes](https://github.com/studiosanka/lerobot-sixeyes) | Record training data and let an AI policy drive the arm, with [LeRobot](https://github.com/huggingface/lerobot) |
 | [sixeyes_description](https://github.com/studiosanka/sixeyes_description) | The arm's shape and joint limits, for ROS 2 and for the phone controller |
-| *sixeyes_ros2* | *Planned: control the arm with ROS 2 and MoveIt. Not started yet* |
+| [sixeyes_ros2](https://github.com/studiosanka/sixeyes_ros2) | Control the arm with ROS 2 and MoveIt, in a pretend arm, in Gazebo, or on the real arm. *Written but not tested yet* |
 
 New to all this? Begin with the website, then the [sixeyes](https://github.com/studiosanka/sixeyes) repository.
 
