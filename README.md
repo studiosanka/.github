@@ -16,7 +16,7 @@ Details about Studio Sanka (who we are, what we believe, the people) live on the
 Run `python scripts/check.py`. It lists these, which need a decision from Studio Sanka:
 
 1. **A contact address** for the code of conduct (`CODE_OF_CONDUCT.md`).
-2. **The website.** Its repository is **private**, so it is deliberately not listed or linked in the profile. It is marked "coming soon" in `profile/README.md` and `SUPPORT.md`, with no link. When it is live, add its address there and in `profile/README.md`'s repository table.
+2. **The website.** It is marked "coming soon" in `profile/README.md` and `SUPPORT.md`, with no link. When it is live, add its address there and in `profile/README.md`'s repository table.
 3. **Private vulnerability reporting** switched on (organisation settings, or each repository), so `SECURITY.md` works.
 4. **Labels** `build-problem` and `enhancement` created in each repository (the issue forms ask for them; GitHub creates `bug` and `question` itself). Without them the forms still work, only the label is skipped.
 5. **The wording "non-profit".** The profile README says "Not a company. No profit. Free, forever." like the website, because the website's notes advise against calling Studio Sanka a "non-profit" unless an organisation is registered. The `sixeyes` README does say "non-profit"; decide which wording you want everywhere.

@@ -25,6 +25,7 @@ A robot arm you can build yourself: 3D-printed gearboxes, ordinary stepper motor
 | Repository | What is in it |
 |---|---|
 | [sixeyes](https://github.com/studiosanka/sixeyes) | **The arm itself:** circuit board, firmware, printable parts and the build guides. Start here to build |
+| [website](https://github.com/studiosanka/website) | The code of our website (the site itself is coming soon) |
 | [sixeyes-drive](https://github.com/studiosanka/sixeyes-drive) | **Drive the arm with your phone** (Android and Chrome): move the phone, the arm follows. Record and replay movements |
 | [sixeyes-host](https://github.com/studiosanka/sixeyes-host) | Talk to the arm from a computer over USB, in Python. Has a pretend arm, so you can try things without hardware |
 | [lerobot-sixeyes](https://github.com/studiosanka/lerobot-sixeyes) | Record training data and let an AI policy drive the arm, with [LeRobot](https://github.com/huggingface/lerobot) |
