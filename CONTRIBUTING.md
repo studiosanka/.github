@@ -8,7 +8,7 @@ Our repositories are maintained by Studio Sanka members. **We are not accepting 
 
 ## Issues are very welcome
 
-Found a bug, hit a problem while building, or have a question or an idea? Open an issue in the repository it is about, and pick the form that fits. We read everything, though we cannot promise to answer every message.
+Found a bug, hit a problem while building, or have a question or an idea? Open an issue in the repository it is about, and pick the form that fits. (The website's own repository is private, so for a problem with the website, open an issue in the [sixeyes repository](https://github.com/studiosanka/sixeyes/issues) and say it is about the website.) We read everything, though we cannot promise to answer every message.
 
 A good issue says:
 
