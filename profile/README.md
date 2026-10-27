@@ -10,7 +10,7 @@
 **Ordinary parts. Extraordinary machines.**
 
 We design robots that anyone can build from hardware-store parts, and give the designs away.
-**Not a company. No profit. Free, forever.**
+**Not-for-profit. Not a company. Free, forever.**
 
 Our website, with who we are, what we believe, who built what and how to build the robot, is **coming soon**.
 

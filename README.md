@@ -19,7 +19,7 @@ Run `python scripts/check.py`. It lists these, which need a decision from Studio
 2. **The website.** It is marked "coming soon" in `profile/README.md` and `SUPPORT.md`, with no link. When it is live, add its address there and in `profile/README.md`'s repository table.
 3. **Private vulnerability reporting** switched on (organisation settings, or each repository), so `SECURITY.md` works.
 4. **Labels** `build-problem` and `enhancement` created in each repository (the issue forms ask for them; GitHub creates `bug` and `question` itself). Without them the forms still work, only the label is skipped.
-5. **The wording "non-profit".** The profile README says "Not a company. No profit. Free, forever." like the website, because the website's notes advise against calling Studio Sanka a "non-profit" unless an organisation is registered. The `sixeyes` README does say "non-profit"; decide which wording you want everywhere.
+5. **The wording is "not-for-profit"** (decided). The profile README uses it. The `sixeyes` README (not edited from here) still says "non-profit", so change it there to match.
 
 ## Publishing
 
