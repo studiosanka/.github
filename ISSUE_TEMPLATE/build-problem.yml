@@ -1,0 +1,51 @@
+name: I am stuck building the arm
+description: "A problem with a step of the build (parts, printing, soldering, flashing or assembly)."
+title: "[Build] "
+labels: ["build-problem"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Stuck is normal, and this is the right place. A **photo** is the most useful thing you can add.
+        **Safety first:** if anything is hot, smoking or sparking, unplug the power before anything else.
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Which step are you on?
+      options:
+        - Order (parts and boards)
+        - Print (the mechanical parts)
+        - Solder (the circuit boards)
+        - Flash (the firmware)
+        - Assemble
+        - Move (first movement)
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: guide
+    attributes:
+      label: Which guide or page?
+      placeholder: A link, or its name
+  - type: textarea
+    id: trying
+    attributes:
+      label: What are you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happens instead?
+      description: Describe it, copy any message exactly, and attach photos.
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you already tried?
+  - type: textarea
+    id: kit
+    attributes:
+      label: What do you have?
+      description: Which parts or modules, which tools, and which board (Base, Shoulder L, Shoulder R or Elbow) if it is about a circuit board.

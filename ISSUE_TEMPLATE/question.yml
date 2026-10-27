@@ -1,0 +1,19 @@
+name: I have a question
+description: Ask anything about SixEyes or how to use it.
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: There are no silly questions. Many of us are students too.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: What are you working on?
+      description: Helps us answer at the right level. For example, "a school robotics club building the arm" or "trying the phone controller".

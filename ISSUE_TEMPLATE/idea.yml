@@ -1,0 +1,19 @@
+name: I have an idea
+description: Suggest a feature, a better explanation, or something that would make it easier.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: We read every idea. We are not taking outside code for now, but ideas shape what we build next.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What is your idea?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What would it help you do?
+      description: The problem you hit matters more than the solution.

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read the build guide first
+    url: https://github.com/studiosanka/sixeyes/tree/main/docs
+    about: The guides say what is finished and what is not. Your answer may already be there.
+  - name: Dangerous, or a security problem?
+    url: https://github.com/studiosanka/.github/blob/main/SECURITY.md
+    about: Switch the arm off first. Then read how to tell us privately. Please do not post these as public issues.

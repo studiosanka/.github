@@ -1,0 +1,53 @@
+name: Something does not work
+description: A bug in the software, the firmware or the phone controller page.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for telling us. You do not need to know the cause.
+        **If an arm moved when it should not have, or did not stop, switch it off at the power supply first.** Read [our safety note](https://github.com/studiosanka/.github/blob/main/SECURITY.md): some of these should be reported privately.
+  - type: dropdown
+    id: part
+    attributes:
+      label: Which part?
+      options:
+        - Arm firmware (the sixeyes repository)
+        - Phone controller page (sixeyes-drive)
+        - Python library or bring-up tool (sixeyes-host)
+        - LeRobot plugins (lerobot-sixeyes)
+        - Arm model (sixeyes_description)
+        - The website
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: trying
+    attributes:
+      label: What were you trying to do?
+      placeholder: For example, "Press Home on the phone page".
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened?
+      description: Copy any error message exactly. A photo or screenshot helps.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we make it happen again?
+      placeholder: "1. ...\n2. ..."
+  - type: textarea
+    id: setup
+    attributes:
+      label: What are you using?
+      description: Computer or phone, operating system, browser, and the version or commit if you know it.
+      placeholder: "Pixel 7, Android 14, Chrome 130"
